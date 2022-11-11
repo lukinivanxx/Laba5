@@ -25,7 +25,7 @@ ax.set_ylabel('Скорость звука, м/с') #подписываем ос
 ax.set_xlabel('Концентрация CO2, %')
 ax.set_title('Зависимость скорости звука\nот концентрации углекислого газа', loc='center', pad=10) #подписываем график
 ax.set_xlim([-0.1, 5.1]) #устанавливаем пределы концентраций и скоростей звука для графика
-ax.set_ylim([338.9, 345])
+ax.set_ylim([341.6, 347.3])
 ax.yaxis.set_minor_locator(tic.MultipleLocator(0.2)) #делаем сетку
 ax.xaxis.set_minor_locator(tic.MultipleLocator(0.2))
 ax.yaxis.set_major_locator(tic.MultipleLocator(1))
