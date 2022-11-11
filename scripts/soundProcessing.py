@@ -26,7 +26,7 @@ for i in range(2):
     collected[float(s[0])] = float(s[1])
 # --- Собственно построение --- #
 fig, ax = plt.subplots()
-ax.scatter(collected.values(), collected.keys(), marker='D', edgecolors='black', s=30, label='Скорости, полученные экспериментально', color='yellow', zorder=4)
+ax.scatter(collected.values(), collected.keys(), marker='D', edgecolors='black', s=30, label='Скорости при различных концентрациях C02', color='yellow', zorder=4)
 ax.plot(q, p, linestyle='-', linewidth = 1.5,  color= 'forestgreen', label='Аналитическая зависимость', zorder=3) #строим график
 ax.legend(loc=0) #добавляем легенду
 ax.set_ylabel('Скорость звука, м/с') #подписываем оси
